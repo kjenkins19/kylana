@@ -1,4 +1,4 @@
-const styles = {
+const colors = {
   primary0: "#1097FF",
   primary1: "#A9DAFF",
   primary2: "#79C5FF",
@@ -6,4 +6,4 @@ const styles = {
   primary4: "#003D6B"
 };
 
-export {styles};
+export default {colors};
