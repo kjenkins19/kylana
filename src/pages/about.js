@@ -7,7 +7,6 @@ import MainLayout from "../components/mainLayout"
 const AboutMe = () => (
   <MainLayout pageTitle="About Me">
     <SEO title="About Me"/>
-    <h2>About Me</h2>
     <p>Improver, Frost Mage, Human</p>
 
     <h2>The Improver</h2>
