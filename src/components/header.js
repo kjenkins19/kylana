@@ -3,15 +3,12 @@ import styles from "./styles"
 import PropTypes from "prop-types"
 import React from "react"
 
-
-const headerStyle = {
-  background: styles.colors.primary3,
-  marginBottom: `1.45rem`,
-};
-
 const Header = ({ siteTitle }) => (
   <header
-    style={headerStyle}
+    style={{
+      background: styles.colors.primary3,
+      marginBottom: `1.45rem`,
+    }}
   >
     <div
       style={{
