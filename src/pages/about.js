@@ -1,13 +1,13 @@
 import React from "react"
 import {Link} from "gatsby"
 
-import Layout from "../components/layout"
 import SEO from "../components/seo"
+import MainLayout from "../components/mainLayout"
 
 const AboutMe = () => (
-  <Layout>
+  <MainLayout pageTitle="About Me">
     <SEO title="About Me"/>
-    <h1>About Me</h1>
+    <h2>About Me</h2>
     <p>Improver, Frost Mage, Human</p>
 
     <h2>The Improver</h2>
@@ -28,7 +28,7 @@ const AboutMe = () => (
       affect work life as well, such dedication, culture, ideation and performance.</p>
 
     <Link to="/">Go back to the homepage</Link>
-  </Layout>
+  </MainLayout>
 );
 
 export default AboutMe
